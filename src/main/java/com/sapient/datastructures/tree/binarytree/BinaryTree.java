@@ -18,8 +18,8 @@ public class BinaryTree {
     }
 
     public void inOrderTraversal(){
-
-    }
+        this.root.inOrderTravesal();
+            }
 
 
 
@@ -53,6 +53,18 @@ public class BinaryTree {
                 }else{
                     this.right.insert(data);
                 }
+            }
+        }
+
+        public void inOrderTravesal(){
+            if(this.left != null) {
+                this.left.inOrderTravesal();
+            }
+
+            System.out.println(this.data);
+
+            if(this.right != null){
+                this.right.inOrderTravesal();
             }
         }
     }

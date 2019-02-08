@@ -14,5 +14,4 @@ public class Factorial {
 
         return BigInteger.valueOf(n).multiply(fact(n-1));
     }
-
 }
