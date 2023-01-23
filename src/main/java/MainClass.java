@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -7,6 +8,12 @@ public class MainClass {
     public static void main(String[] args) {
         System.out.println("Main Started");
 //        SingletonClass.dummy();
+
+        String str= "leet";
+        System.out.println(str.indexOf("lee"));
+
+        /*
+
         char [] tmp = new char[10];
         StringBuffer sss = new StringBuffer();
         sss.append("13");
@@ -29,9 +36,10 @@ public class MainClass {
         System.out.println(res2);
 
         System.out.println(res2.equals(res));
-
+*/
 //        i2.forEach(System.out::print);
     }
+
 
 
 }
