@@ -1,7 +1,5 @@
 package com.sapient.java.innerclass;
 
-import com.sun.xml.internal.bind.marshaller.NioEscapeHandler;
-
 public class NestedInnerClass {
 
     private String str = "Ankit";
